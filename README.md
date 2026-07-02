@@ -43,8 +43,5 @@ This project uses Logistic Regression trained on the ISOT Fake News dataset (~44
 - `vectorizer.joblib` — TF-IDF vectorizer
 - `True.csv`, `Fake.csv` — Dataset (ISOT)
 
-## 🎥 Demo
-[Add your screen recording or GIF here]
-
 ## 👤 Author
 Tapas Mahapatra — MCA Student, Data Science & Analytics
