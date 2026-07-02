@@ -7,8 +7,9 @@ This project uses Logistic Regression trained on the ISOT Fake News dataset (~44
 
 ## 📊 Dataset
 - **Source:** ISOT Fake News Dataset (Kaggle)
-- Two CSV files: `True.csv` (real news) and `Fake.csv` (fake news), combined and labeled during preprocessing
-- ~44,000 articles total
+- `True.csv` — real news articles
+- `Fake.csv` — fake news articles
+- ~44,000 articles total, combined and labeled during preprocessing
 
 ## 🛠️ Tech Stack
 - **Model:** Logistic Regression
@@ -23,8 +24,8 @@ This project uses Logistic Regression trained on the ISOT Fake News dataset (~44
 ## 🚀 How to Run Locally
 1. Clone the repo:
 ```bash
-   git clone https://github.com/12102004-Tapas/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/12102004-Tapas/Fake-News-Prediction.git
+   cd Fake-News-Prediction
 ```
 2. Install dependencies:
 ```bash
@@ -37,11 +38,13 @@ This project uses Logistic Regression trained on the ISOT Fake News dataset (~44
 
 ## 📁 Files
 - `app.py` — Streamlit app code
+- `FakeNewsPrediction.ipynb` — Model training notebook
 - `fake_news_model.joblib` — Trained Logistic Regression model
 - `vectorizer.joblib` — TF-IDF vectorizer
+- `True.csv`, `Fake.csv` — Dataset (ISOT)
 
 ## 🎥 Demo
-[Add your screen recording link or embed here]
+[Add your screen recording or GIF here]
 
 ## 👤 Author
 Tapas Mahapatra — MCA Student, Data Science & Analytics
